@@ -1,0 +1,9 @@
+#
+# Makefile fragment for bcm_helper Module
+#
+
+ccflags-y :=
+
+bcm_helper-objs	=
+
+obj-$(CONFIG_BCM_HELPER) += bcm_helper.o

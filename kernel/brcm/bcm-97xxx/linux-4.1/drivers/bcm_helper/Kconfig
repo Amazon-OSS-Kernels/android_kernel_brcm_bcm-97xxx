@@ -1,0 +1,13 @@
+#
+# BCM Helper Module configuration
+#
+
+config BCM_HELPER
+	tristate "BCM Helper"
+	default y
+	help
+	  If you select this option, bcm supported helper APIs will be exported
+	  for any kernel module to use its functionality.
+	  Currently it has very limited functionality.
+
+	  If unsure, say M, if allowed, otherwise M.
